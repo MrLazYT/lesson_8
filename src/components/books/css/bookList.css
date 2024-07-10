@@ -1,0 +1,41 @@
+.books{
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.book-tables{
+    /* margin: 0 auto; */
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    color:rgb(11, 85, 91);
+}
+
+.book-tables th,
+.book-tables td{
+    border: 1px solid rgb(2, 23, 25);
+    padding: 8px;
+}
+.book-tables th{
+    background-color: teal;
+    color: white;
+}
+
+.books a{
+    color: rgb(1, 30, 30);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+tr>td:nth-child(2){
+    text-align: left;
+}
+
+.book-tables tr:hover{
+    background-color: rgb(189, 199, 199);
+}
